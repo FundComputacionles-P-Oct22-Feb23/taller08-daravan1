@@ -25,5 +25,14 @@
 15. Fin_Para
 16. Escribir suma // 53
 17. Fin
-
 // Solución ciclo Mientras
+
+4. indice, i[0-n] <-- 0
+...
+12. Mientras indice <=2 entonces
+13.	suma <- suma + notasEstudiante1[indice]
+14.	suma <- suma + notasEstudiante2[indice]
+15.	indice <-- indice +1
+16. FinMientras
+17. Escribir suma
+18.Fin

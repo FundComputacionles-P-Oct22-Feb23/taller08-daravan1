@@ -23,6 +23,12 @@
     // 5 es calificación -- Mala
     // 2 es calificación -- Mala
 15. Para(indice<--0, indice<3, 1) haga
-16.   //
+16.	Si notasEstudiantes[indice] < 5 entonces
+17.		notasEstudianteCualitativo[indice] <--"Mala"
+18.		Escribir notasEstudiantes[indice] + " es calificacion -- " + notasEstudianteCualitativo[indice] + "\n"
+19.	De lo contrario
+20.		notasEstudianteCualitativo[indice] <--"Buena"
+21.		Escribir notasEstudiantes[indice] + " es calificacion -- " + notasEstudianteCualitativo[indice] + "\n"
+22.	FinSi
 17. Fin_Para
 18. Fin
